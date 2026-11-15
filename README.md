@@ -216,12 +216,6 @@ Assignment3.zip
 Do not include local practice checks, compiled `.class` files, tests, libraries,
 IDE settings, or the entire project directory.
 
-To create the ZIP from the project folder:
-
-```bash
-zip Assignment3.zip uml.png src/*.java
-```
-
 Before submitting, run:
 
 ```bash
