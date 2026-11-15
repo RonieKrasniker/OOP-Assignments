@@ -194,23 +194,13 @@ Submit a single **`Assignment3.zip`** file containing a top-level `src` director
 - The provided `Main.java`, unchanged (without local practice checks).
 - Any helper classes required by your implementation.
 
-In addition, the ZIP must contain a **UML class diagram** named `uml.png` (or
-`uml.pdf`) at the top level, next to `src/`. The diagram should show every class
-you submit, including helper classes, with:
-
-- Each class's fields and methods, including visibility (`+` public,
-  `-` private, `#` protected) and types.
-- Abstract classes and abstract methods marked (italic or `{abstract}`).
-- Inheritance relationships (e.g. `Car`, `Bike`, and `Truck` extend `Vehicle`).
-- Composition/association relationships with multiplicities (e.g. a
-  `ParkingLot` has many `ParkingFloor`s, and a `ParkingFloor` has many
-  `ParkingSpot`s).
+In addition, the ZIP must contain your **UML class diagram** name design.<ext> at the top level, next to `src/`. 
 
 The ZIP should have this structure:
 
 ```text
 Assignment3.zip
-├── uml.png
+├── design.<ext>
 └── src/
     ├── Vehicle.java
     ├── Car.java
