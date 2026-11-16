@@ -194,7 +194,7 @@ Submit a single **`Assignment3.zip`** file containing a top-level `src` director
 - The provided `Main.java`, unchanged (without local practice checks).
 - Any helper classes required by your implementation.
 
-In addition, the ZIP must contain your **UML class diagram** name design.<ext> at the top level, next to `src/`. 
+In addition, the ZIP must contain your **UML class diagram** at the top level, next to `src/`. 
 
 The ZIP should have this structure:
 
