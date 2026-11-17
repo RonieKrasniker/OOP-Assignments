@@ -18,5 +18,5 @@ public abstract class Vehicle {
      *
      * @return license plate
      */
-    public abstract String getLicensePlate();
+    public String getLicensePlate();
 }
