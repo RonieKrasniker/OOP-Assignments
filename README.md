@@ -245,8 +245,7 @@ Add the following methods to classes `Point` and `LineSegment`:
 Implement the following classes:
 - `Point` (`src/Point.java`)
 - `LineSegment` (`src/LineSegment.java`)
-
-You may also add helper methods or classes as needed.
+- You may also add helper methods or classes as needed.
 
 Submit a single **zip file** containing the src directory with:
 - The provided files (`Main.java`, `GeometryGenerator.java`, `GeometryRecord.java`, `GeometryRenderer.java`)
