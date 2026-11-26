@@ -199,9 +199,9 @@ class LineSegment {
 	}
 }
 ```
-## Part 4: Check if point belongs to a line segment
+## Part 4: Check if a point belongs to a line segment
 Determine whether a `Point` belongs to a `LineSegment`.
-In order to solve this problem , we will use the line equation.
+In order to solve this problem, we will use the line equation.
 
 $$
 \displaylines{
@@ -225,14 +225,28 @@ $$
 Add the following methods to classes `Point` and `LineSegment`:
 - `Point`: `boolean belongsTo(LineSegment l)` - return `true` if `this` belongs to line segment `l`
 - `LineSegment`: `boolean contains(Point p)` - return `true` if point `p` belongs to `this`
+- 
+> [!NOTE]
+> To avoid code duplication, you may implement one of these methods by calling the other.
 
 > [!IMPORTANT]
-> Note that classes `Point` and `LineSegment` will be used in other assignments!
+> Your implementation must handle all edge cases, including the following:
+> - **Vertical line segments:** A line segment whose endpoints have the same x-coordinate is valid.
+> - **Zero-length line segments:** A line segment whose start and end points coincide is valid. All relevant methods should behave as if the segment were a single point.
+>
+> The slope formula presented above is undefined in both cases, so these cases must be handled appropriately.
+>
+> 
+> [!IMPORTANT]
+
+> The `Point` and `LineSegment` classes will be used in subsequent assignments!
 
 ## Submission
 Implement the following classes:
 - `Point` (`src/Point.java`)
 - `LineSegment` (`src/LineSegment.java`)
+
+You may also add helper methods or classes as needed.
 
 Submit a single **zip file** containing the src directory with:
 - The provided files (`Main.java`, `GeometryGenerator.java`, `GeometryRecord.java`, `GeometryRenderer.java`)
