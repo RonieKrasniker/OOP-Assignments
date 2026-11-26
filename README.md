@@ -236,9 +236,8 @@ Add the following methods to classes `Point` and `LineSegment`:
 >
 > The slope formula presented above is undefined in both cases, so these cases must be handled appropriately.
 >
-> 
-> [!IMPORTANT]
 
+> [!IMPORTANT]
 > The `Point` and `LineSegment` classes will be used in subsequent assignments!
 
 ## Submission
